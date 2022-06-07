@@ -1,1 +1,1 @@
-# coinbase-frontend
+# coinbase-frontend-in-react.js
