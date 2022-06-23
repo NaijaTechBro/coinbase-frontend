@@ -1,0 +1,29 @@
+.coinbase__portfolio {
+    display: flex;
+}
+
+.coinbase__portfolio-container {
+    display: flex;
+}
+
+.coinbase__portfolio .coinbase__portfolio-container .coinbase__portfolio-header {
+    width: 100%;
+}
+
+.coinbase__portfolio .coinbase__portfolio-container .coinbase__portfolio-header h2 {
+    font-family: var(--font-family);
+    font-size: 40px;
+    padding: 0px 0px 8px;
+
+}
+
+.coinbase__portfolio-container_left {
+    display: flex;
+    max-width: 30%;
+}
+
+.coinbase__portfolio-container_right,
+.coinbase__portfolio-container_right-featureImage img {
+    width: 700px;
+    height: 544.59px;
+}

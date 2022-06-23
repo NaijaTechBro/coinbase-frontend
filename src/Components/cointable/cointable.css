@@ -1,0 +1,66 @@
+.price-table-container {
+    width: 1542px;
+    height: 329.95px;
+    justify-content: center;
+    align-self: center;
+    display: flex;
+    margin: 0px 174px;
+}
+
+.price-table-container .price-table {
+    width: 80%;
+    margin: auto;
+    border: 1px solid #e7e7e7;
+    padding: 10px;
+    border-radius: 7px;
+    font-family: var(--font-family);
+}
+
+.price-table-container .price-table thead tr td {
+    border-bottom: 1px solid #e7e7e7;
+    color: #6d6d6d;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--font-family);
+}
+
+.price-table-container .price-table .price-table-body tr .name-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+.price-table-container .price-table .price-table-body tr .name-container img {
+    width: 35px;
+}
+
+.price-table-container .price-table .price-table-body tr .name-container span {
+    color: #6d6d6d;
+}
+
+.price-table-container .price-table .price-table-body tr td {
+    font-size: 18px;
+    padding: 10px 0;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.price-table-container .price-table .price-table-body tr td.change {
+    color: #d61c1c;
+}
+
+.price-table-container .price-table .price-table-body tr td button {
+    margin-left: 25px;
+    padding: 8px 16px;
+    color: #fff;
+    background-color: #098551;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}

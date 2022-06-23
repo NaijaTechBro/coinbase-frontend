@@ -1,0 +1,132 @@
+.coinbase__header {
+    display: flex;
+}
+
+.coinbase__header-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 100px 0px 111px;
+
+    margin-left: 25rem;
+}
+
+.coinbase__header-contentstart p {
+    font-weight: 700;
+    font-family: var(--font-family);
+    color: #0052ff;
+    padding-left: 5px;
+    letter-spacing: -0.04rem;
+    margin-right: 15px;
+    align-self: center;
+    font-size: 16px;
+}
+
+.coinbase__header-contentstart img {
+    padding-left: 5px;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 20px;
+    margin-right: 12px;
+}
+
+.coinbase__header-contentstart img:last-child {
+    padding-left: 5px;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 18px;
+    margin-right: 12px;
+}
+
+
+.coinbase__header-content h1 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    line-height: 75px;
+    font-size: 63px;
+    letter-spacing: -0.04rem;
+}
+
+
+.coinbase__header-content h3 {
+    font-weight: 600;
+    font-family: var(--font-family);
+    color: #0a0b0d;
+    line-height: 20px;
+    margin: 0 0 32px;
+    padding: 10px;
+    letter-spacing: -0.04rem;
+    margin-top: 15px;
+    margin-right: 18px;
+}
+
+.coinbase__header-image img {
+    width: 426.77px;
+    height: 600px;
+    padding: 40px 0px 0px 24px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10rem;
+    margin-top: 10px;
+}
+
+.coinbase__header-content__input input {
+    width: 282.92px;
+    font-family: var(--font-family);
+    font-size: 14px;
+    height: 66.39px;
+    padding: 20px;
+    border-radius: 5px;
+    border-width: 0.5px;
+}
+
+.coinbase__header-content__input button {
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 14px;
+    color: #fff;
+    background: #0052ff;
+    width: 179.08px;
+    height: 68.79px;
+    padding: 24px;
+    margin-left: 12px;
+    border-radius: 5px;
+    border: none;
+}
+
+.coinbase__header-content__input input {
+    font-family: var(--font-family);
+    font-weight: 350;
+    font-size: 14px;
+    color: #000;
+    background: #fff;
+    width: 282.92px;
+    height: 66.9px;
+    padding: 20px;
+    margin-left: 12px;
+    border-radius: 5px;
+    border-color: #0a0b0d;
+}
+
+.coinbase__header-content__input button:last-child {
+    font-family: var(--font-family);
+    font-weight: 350;
+    font-size: 14px;
+    color: #fff;
+    background: #0052ff;
+    width: 179.08px;
+    height: 68.79px;
+    padding: 24px;
+    margin-left: 12px;
+    border-radius: 5px;
+    border: none;
+}
+
+.coinbase__header-content-image svg {
+    width: 550;
+    height: 640px;
+    padding: 40px 0px 0px 25px;
+}
